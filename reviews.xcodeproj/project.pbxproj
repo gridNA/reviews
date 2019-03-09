@@ -25,6 +25,8 @@
 		E9FE2E132233A5B400103E5F /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE2E122233A5B400103E5F /* Swinject.framework */; };
 		E9FE2E152233A5C700103E5F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE2E142233A5C700103E5F /* Alamofire.framework */; };
 		E9FE2E162233A5C700103E5F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE2E142233A5C700103E5F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9FE2E272233BC4700103E5F /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE2E122233A5B400103E5F /* Swinject.framework */; };
+		E9FE2E292233BE0E00103E5F /* ReviewsMocData.json in Resources */ = {isa = PBXBuildFile; fileRef = E9FE2E282233BE0E00103E5F /* ReviewsMocData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,7 @@
 		E9FE2E0F2233A22500103E5F /* ReviewsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsPresenter.swift; sourceTree = "<group>"; };
 		E9FE2E122233A5B400103E5F /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		E9FE2E142233A5C700103E5F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E9FE2E282233BE0E00103E5F /* ReviewsMocData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ReviewsMocData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FE2E272233BC4700103E5F /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +158,7 @@
 			children = (
 				E9FE2DE02232E41C00103E5F /* reviewsTests.swift */,
 				E9FE2DE22232E41C00103E5F /* Info.plist */,
+				E9FE2E282233BE0E00103E5F /* ReviewsMocData.json */,
 			);
 			path = reviewsTests;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FE2E292233BE0E00103E5F /* ReviewsMocData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +617,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = reviewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -631,6 +641,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = reviewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -650,6 +664,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = reviewsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -669,6 +687,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = reviewsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

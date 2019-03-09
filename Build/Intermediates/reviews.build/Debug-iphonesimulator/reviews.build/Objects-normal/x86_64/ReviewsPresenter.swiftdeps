@@ -40,6 +40,7 @@ depends-top-level:
 - "UIScrollView"
 - !private "UIViewController"
 - "Void"
+- !private "~="
 depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "init"]
@@ -173,6 +174,7 @@ depends-member:
 - !private ["7reviews16ReviewsPresenterC", "lastNumberOfFetchedItems"]
 - ["7reviews16ReviewsPresenterC", "numberOfFetchedItems"]
 - ["7reviews16ReviewsPresenterC", "numberOfItemsString"]
+- ["7reviews16ReviewsPresenterC", "ratingStarsFromRating"]
 - !private ["7reviews16ReviewsPresenterC", "reviewsView"]
 - ["7reviews16ReviewsPresenterC", "scrollViewDidScroll"]
 - ["7reviews16ReviewsPresenterC", "selectItem"]
@@ -191,6 +193,7 @@ depends-member:
 - !private ["7reviews24ReviewsPresenterProtocolP", "lastNumberOfFetchedItems"]
 - ["7reviews24ReviewsPresenterProtocolP", "numberOfFetchedItems"]
 - ["7reviews24ReviewsPresenterProtocolP", "numberOfItemsString"]
+- ["7reviews24ReviewsPresenterProtocolP", "ratingStarsFromRating"]
 - !private ["7reviews24ReviewsPresenterProtocolP", "reviewsView"]
 - ["7reviews24ReviewsPresenterProtocolP", "scrollViewDidScroll"]
 - ["7reviews24ReviewsPresenterProtocolP", "selectItem"]
@@ -418,4 +421,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "86357f3e432d9f1df4e761ae745345bf"
+interface-hash: "57c418972921248fe1d0acb60ae6f46e"

@@ -201,6 +201,7 @@ SWIFT_CLASS("_TtC7reviews14ReviewViewCell")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified authorLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified shortMesageLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified ratingLabel;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

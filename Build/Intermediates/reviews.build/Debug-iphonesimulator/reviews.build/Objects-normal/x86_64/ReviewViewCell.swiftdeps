@@ -7,6 +7,7 @@ provides-member:
 - ["7reviews14ReviewViewCellC", ""]
 provides-dynamic-lookup:
 - "authorLabel"
+- "ratingLabel"
 - "shortMesageLabel"
 - "titleLabel"
 depends-top-level:
@@ -39,6 +40,7 @@ depends-member:
 - ["So8NSObjectC", "authorLabel"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ratingLabel"]
 - ["So8NSObjectC", "shortMesageLabel"]
 - ["So8NSObjectC", "titleLabel"]
 - ["So8NSObjectP", ""]
@@ -47,6 +49,7 @@ depends-member:
 - ["7reviews14ReviewViewCellC", "UILabel"]
 - ["7reviews14ReviewViewCellC", "authorLabel"]
 - ["7reviews14ReviewViewCellC", "init"]
+- ["7reviews14ReviewViewCellC", "ratingLabel"]
 - ["7reviews14ReviewViewCellC", "shortMesageLabel"]
 - ["7reviews14ReviewViewCellC", "titleLabel"]
 - ["So29UIAccessibilityIdentificationP", ""]
@@ -83,6 +86,7 @@ depends-member:
 - ["So11UIResponderC", "authorLabel"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "ratingLabel"]
 - ["So11UIResponderC", "shortMesageLabel"]
 - ["So11UIResponderC", "titleLabel"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -93,6 +97,7 @@ depends-member:
 - ["So15UITableViewCellC", "authorLabel"]
 - ["So15UITableViewCellC", "init"]
 - !private ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "ratingLabel"]
 - ["So15UITableViewCellC", "shortMesageLabel"]
 - ["So15UITableViewCellC", "titleLabel"]
 - ["So18UITraitEnvironmentP", ""]
@@ -105,6 +110,7 @@ depends-member:
 - ["So6UIViewC", "authorLabel"]
 - ["So6UIViewC", "init"]
 - !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "ratingLabel"]
 - ["So6UIViewC", "shortMesageLabel"]
 - ["So6UIViewC", "titleLabel"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
@@ -176,4 +182,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ee1cecb20828e7d3b1009377bb45d93d"
+interface-hash: "8583ea69695ea8e03863326f64f8bcac"

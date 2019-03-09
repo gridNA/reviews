@@ -22,8 +22,8 @@ class ReviewsAssembly {
     func assemble() {
 
         container.register(ReviewsInteractorProtocol.self, factory: { r in
-            let carService = r.resolve(ReviewsServiceProtocol.self)!
-            return ReviewsInteractor(with: carService) }).inObjectScope(.graph)
+            let reviewsService = r.resolve(ReviewsServiceProtocol.self)!
+            return ReviewsInteractor(with: reviewsService) }).inObjectScope(.graph)
 
         container.register(ReviewsServiceProtocol.self,
                            factory: { r in ReviewsService() }).inObjectScope(.graph)

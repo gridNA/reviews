@@ -17,9 +17,11 @@ depends-top-level:
 - !private "!="
 - !private "*"
 - !private "+"
+- !private "-"
 - !private "<"
+- !private ">"
 - !private "??"
-- "Array"
+- !private "Array"
 - "AssignmentPrecedence"
 - "Bool"
 - "FetchCompletion"
@@ -40,30 +42,41 @@ depends-member:
 - !private ["s13ArrayProtocolP", "subscript"]
 - !private ["SK", "count"]
 - !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["Sl", "count"]
 - !private ["Sl", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "count"]
 - !private ["Se", "data"]
 - !private ["Se", "subscript"]
 - !private ["Se", "totalReviewsComments"]
+- !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "count"]
 - !private ["SE", "data"]
 - !private ["SE", "subscript"]
 - !private ["SE", "totalReviewsComments"]
+- !private ["SQ", "_getBuiltinLogicValue"]
 - !private ["SQ", "count"]
 - !private ["SQ", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
 - !private ["SH", "count"]
 - !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["SM", "count"]
 - !private ["SM", "subscript"]
 - !private ["Sk", "count"]
@@ -84,46 +97,55 @@ depends-member:
 - ["7reviews17ReviewsInteractorC", "item"]
 - ["7reviews17ReviewsInteractorC", "moreItemsAvailable"]
 - ["7reviews17ReviewsInteractorC", "numberOfFetchedItems"]
-- !private ["7reviews17ReviewsInteractorC", "page"]
-- !private ["7reviews17ReviewsInteractorC", "pageSize"]
-- !private ["7reviews17ReviewsInteractorC", "reviews"]
+- ["7reviews17ReviewsInteractorC", "page"]
+- ["7reviews17ReviewsInteractorC", "pageSize"]
+- !private ["7reviews17ReviewsInteractorC", "rev"]
+- ["7reviews17ReviewsInteractorC", "reviews"]
 - !private ["7reviews17ReviewsInteractorC", "service"]
 - ["7reviews25ReviewsInteractorProtocolP", "Bool"]
 - ["7reviews25ReviewsInteractorProtocolP", "FetchCompletion"]
 - ["7reviews25ReviewsInteractorProtocolP", "Int"]
+- ["7reviews25ReviewsInteractorProtocolP", "ReviewsInfo"]
 - ["7reviews25ReviewsInteractorProtocolP", "ReviewsModel"]
 - ["7reviews25ReviewsInteractorProtocolP", ""]
 - ["7reviews25ReviewsInteractorProtocolP", "fetchReviews"]
 - ["7reviews25ReviewsInteractorProtocolP", "item"]
 - ["7reviews25ReviewsInteractorProtocolP", "moreItemsAvailable"]
 - ["7reviews25ReviewsInteractorProtocolP", "numberOfFetchedItems"]
-- !private ["7reviews25ReviewsInteractorProtocolP", "page"]
-- !private ["7reviews25ReviewsInteractorProtocolP", "pageSize"]
-- !private ["7reviews25ReviewsInteractorProtocolP", "reviews"]
+- ["7reviews25ReviewsInteractorProtocolP", "page"]
+- ["7reviews25ReviewsInteractorProtocolP", "pageSize"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "rev"]
+- ["7reviews25ReviewsInteractorProtocolP", "reviews"]
 - !private ["7reviews25ReviewsInteractorProtocolP", "service"]
 - !private ["7reviews22ReviewsServiceProtocolP", "fetchReviews"]
 - !private ["ST", "count"]
 - !private ["ST", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - !private "Sa"
 - !private "s13ArrayProtocolP"
 - !private "SK"
+- !private "Sb"
 - !private "s7CVarArgP"
 - !private "Sl"
 - !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "SE"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - !private "SH"
+- !private "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "Sk"
 - !private "Sm"
@@ -133,6 +155,7 @@ depends-nominal:
 - !private "7reviews22ReviewsServiceProtocolP"
 - !private "ST"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
@@ -169,4 +192,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d61835f98944f96d067498c699526c7f"
+interface-hash: "3038cf48d1fa0f97bd2c48602bbafc48"

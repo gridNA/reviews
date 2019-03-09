@@ -1,0 +1,576 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MocDependencyContainer"
+- "reviewsTests"
+- "MockReviewsService"
+provides-nominal:
+- "12reviewsTests22MocDependencyContainerC"
+- "12reviewsTestsAAC"
+- "12reviewsTests18MockReviewsServiceC"
+provides-member:
+- ["12reviewsTests22MocDependencyContainerC", ""]
+- ["12reviewsTestsAAC", ""]
+- ["12reviewsTests18MockReviewsServiceC", ""]
+provides-dynamic-lookup:
+- "assemble"
+- "setUp"
+- "test_ifIndexIsOutOfRange_NoItemFound"
+- "test_ifPageIsOutRange_NoMoreItemsAvailable"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "..<"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "Container"
+- !private "Data"
+- "DependencyContainer"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "JSONDecoder"
+- "MocDependencyContainer"
+- "MockReviewsService"
+- "Optional"
+- "ReviewsError"
+- "ReviewsInfo"
+- !private "ReviewsInteractor"
+- "ReviewsInteractorProtocol"
+- "ReviewsServiceProtocol"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "XCTAssertFalse"
+- !private "XCTAssertNil"
+- "XCTestCase"
+- "reviewsTests"
+- !private "type"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "path"]
+- ["s7CVarArgP", "MocDependencyContainer"]
+- !private ["s7CVarArgP", "MockReviewsService"]
+- !private ["s7CVarArgP", "ReviewsInteractor"]
+- !private ["s7CVarArgP", "ReviewsInteractorProtocol"]
+- !private ["s7CVarArgP", "ReviewsServiceProtocol"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertNil"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "assemble"]
+- !private ["s7CVarArgP", "container"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interactor"]
+- !private ["s7CVarArgP", "mockService"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["8Swinject9ContainerC", "init"]
+- !private ["8Swinject9ContainerC", "register"]
+- !private ["8Swinject9ContainerC", "resolve"]
+- ["s28CustomDebugStringConvertibleP", "MocDependencyContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "MockReviewsService"]
+- !private ["s28CustomDebugStringConvertibleP", "ReviewsInteractor"]
+- !private ["s28CustomDebugStringConvertibleP", "ReviewsInteractorProtocol"]
+- !private ["s28CustomDebugStringConvertibleP", "ReviewsServiceProtocol"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNil"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "assemble"]
+- !private ["s28CustomDebugStringConvertibleP", "container"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchReviews"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interactor"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "mockService"]
+- !private ["s28CustomDebugStringConvertibleP", "moreItemsAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "page"]
+- !private ["s28CustomDebugStringConvertibleP", "pageSize"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "reviews"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "fetchReviews"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "item"]
+- !private ["s17CustomReflectableP", "moreItemsAvailable"]
+- !private ["s17CustomReflectableP", "page"]
+- !private ["s17CustomReflectableP", "pageSize"]
+- !private ["s17CustomReflectableP", "reviews"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "MocDependencyContainer"]
+- !private ["s23CustomStringConvertibleP", "MockReviewsService"]
+- !private ["s23CustomStringConvertibleP", "ReviewsInteractor"]
+- !private ["s23CustomStringConvertibleP", "ReviewsInteractorProtocol"]
+- !private ["s23CustomStringConvertibleP", "ReviewsServiceProtocol"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNil"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "assemble"]
+- !private ["s23CustomStringConvertibleP", "container"]
+- !private ["s23CustomStringConvertibleP", "graph"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interactor"]
+- !private ["s23CustomStringConvertibleP", "mockService"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "resolve"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["Se", "data"]
+- !private ["Se", "fetchReviews"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "item"]
+- !private ["Se", "moreItemsAvailable"]
+- !private ["Se", "page"]
+- !private ["Se", "pageSize"]
+- !private ["Se", "reviews"]
+- !private ["Se", "subscript"]
+- ["7reviews19DependencyContainerC", "container"]
+- ["7reviews19DependencyContainerC", "init"]
+- !private ["SE", "data"]
+- !private ["SE", "fetchReviews"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "item"]
+- !private ["SE", "moreItemsAvailable"]
+- !private ["SE", "page"]
+- !private ["SE", "pageSize"]
+- !private ["SE", "reviews"]
+- !private ["SE", "subscript"]
+- ["SQ", "MocDependencyContainer"]
+- !private ["SQ", "MockReviewsService"]
+- !private ["SQ", "ReviewsInteractor"]
+- !private ["SQ", "ReviewsInteractorProtocol"]
+- !private ["SQ", "ReviewsServiceProtocol"]
+- !private ["SQ", "XCTAssertFalse"]
+- !private ["SQ", "XCTAssertNil"]
+- ["SQ", ""]
+- !private ["SQ", "assemble"]
+- !private ["SQ", "container"]
+- !private ["SQ", "fetchReviews"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interactor"]
+- !private ["SQ", "item"]
+- !private ["SQ", "mappedIfSafe"]
+- !private ["SQ", "mockService"]
+- !private ["SQ", "moreItemsAvailable"]
+- !private ["SQ", "page"]
+- !private ["SQ", "pageSize"]
+- !private ["SQ", "path"]
+- !private ["SQ", "reviews"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "mappedIfSafe"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "fetchReviews"]
+- !private ["s23ExpressibleByNilLiteralP", "item"]
+- !private ["s23ExpressibleByNilLiteralP", "moreItemsAvailable"]
+- !private ["s23ExpressibleByNilLiteralP", "page"]
+- !private ["s23ExpressibleByNilLiteralP", "pageSize"]
+- !private ["s23ExpressibleByNilLiteralP", "reviews"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "MocDependencyContainer"]
+- !private ["SH", "MockReviewsService"]
+- !private ["SH", "ReviewsInteractor"]
+- !private ["SH", "ReviewsInteractorProtocol"]
+- !private ["SH", "ReviewsServiceProtocol"]
+- !private ["SH", "XCTAssertFalse"]
+- !private ["SH", "XCTAssertNil"]
+- ["SH", ""]
+- !private ["SH", "assemble"]
+- !private ["SH", "container"]
+- !private ["SH", "fetchReviews"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "interactor"]
+- !private ["SH", "item"]
+- !private ["SH", "mockService"]
+- !private ["SH", "moreItemsAvailable"]
+- !private ["SH", "page"]
+- !private ["SH", "pageSize"]
+- !private ["SH", "path"]
+- !private ["SH", "reviews"]
+- !private ["SH", "subscript"]
+- !private ["8Swinject15InstanceWrapperP", "fetchReviews"]
+- !private ["8Swinject15InstanceWrapperP", "item"]
+- !private ["8Swinject15InstanceWrapperP", "moreItemsAvailable"]
+- !private ["8Swinject15InstanceWrapperP", "page"]
+- !private ["8Swinject15InstanceWrapperP", "pageSize"]
+- !private ["8Swinject15InstanceWrapperP", "reviews"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["12reviewsTests22MocDependencyContainerC", "Container"]
+- ["12reviewsTests22MocDependencyContainerC", "DependencyContainer"]
+- ["12reviewsTests22MocDependencyContainerC", "container"]
+- ["12reviewsTests22MocDependencyContainerC", "init"]
+- ["12reviewsTests22MocDependencyContainerC", "instance"]
+- !private ["12reviewsTests18MockReviewsServiceC", "Array"]
+- !private ["12reviewsTests18MockReviewsServiceC", "Bundle"]
+- !private ["12reviewsTests18MockReviewsServiceC", "Data"]
+- ["12reviewsTests18MockReviewsServiceC", "Int"]
+- !private ["12reviewsTests18MockReviewsServiceC", "JSONDecoder"]
+- ["12reviewsTests18MockReviewsServiceC", "Optional"]
+- ["12reviewsTests18MockReviewsServiceC", "ReviewsError"]
+- ["12reviewsTests18MockReviewsServiceC", "ReviewsInfo"]
+- ["12reviewsTests18MockReviewsServiceC", "String"]
+- !private ["12reviewsTests18MockReviewsServiceC", "URL"]
+- ["12reviewsTests18MockReviewsServiceC", "deinit"]
+- ["12reviewsTests18MockReviewsServiceC", "fetchReviews"]
+- ["12reviewsTests18MockReviewsServiceC", "init"]
+- !private ["12reviewsTests18MockReviewsServiceC", "type"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- ["So8NSObjectC", "MocDependencyContainer"]
+- !private ["So8NSObjectC", "MockReviewsService"]
+- !private ["So8NSObjectC", "ReviewsInteractor"]
+- ["So8NSObjectC", "ReviewsInteractorProtocol"]
+- ["So8NSObjectC", "ReviewsServiceProtocol"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertNil"]
+- ["So8NSObjectC", "assemble"]
+- ["So8NSObjectC", "container"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interactor"]
+- ["So8NSObjectC", "mockService"]
+- !private ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "test_ifIndexIsOutOfRange_NoItemFound"]
+- ["So8NSObjectC", "test_ifPageIsOutRange_NoMoreItemsAvailable"]
+- ["So8NSObjectP", "MocDependencyContainer"]
+- !private ["So8NSObjectP", "MockReviewsService"]
+- !private ["So8NSObjectP", "ReviewsInteractor"]
+- !private ["So8NSObjectP", "ReviewsInteractorProtocol"]
+- !private ["So8NSObjectP", "ReviewsServiceProtocol"]
+- !private ["So8NSObjectP", "XCTAssertFalse"]
+- !private ["So8NSObjectP", "XCTAssertNil"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "assemble"]
+- !private ["So8NSObjectP", "container"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "interactor"]
+- !private ["So8NSObjectP", "mockService"]
+- !private ["So8NSObjectP", "path"]
+- !private ["8Swinject11ObjectScopeC", "graph"]
+- !private ["8Swinject19ObjectScopeProtocolP", "graph"]
+- !private ["s9OptionSetP", "mappedIfSafe"]
+- !private ["Sq", "fetchReviews"]
+- !private ["Sq", "item"]
+- !private ["Sq", "moreItemsAvailable"]
+- !private ["Sq", "page"]
+- !private ["Sq", "pageSize"]
+- !private ["Sq", "reviews"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "mappedIfSafe"]
+- !private ["So20NSDataReadingOptionsV", "mappedIfSafe"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["8Swinject8ResolverP", "init"]
+- !private ["8Swinject8ResolverP", "register"]
+- !private ["8Swinject8ResolverP", "resolve"]
+- !private ["7reviews11ReviewsInfoV", "data"]
+- !private ["7reviews17ReviewsInteractorC", "init"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "init"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "item"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "moreItemsAvailable"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "page"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "pageSize"]
+- !private ["7reviews25ReviewsInteractorProtocolP", "reviews"]
+- !private ["7reviews22ReviewsServiceProtocolP", "Array"]
+- !private ["7reviews22ReviewsServiceProtocolP", "Bundle"]
+- !private ["7reviews22ReviewsServiceProtocolP", "Data"]
+- !private ["7reviews22ReviewsServiceProtocolP", "JSONDecoder"]
+- !private ["7reviews22ReviewsServiceProtocolP", "ReviewsInfo"]
+- !private ["7reviews22ReviewsServiceProtocolP", "URL"]
+- ["7reviews22ReviewsServiceProtocolP", ""]
+- ["7reviews22ReviewsServiceProtocolP", "fetchReviews"]
+- !private ["7reviews22ReviewsServiceProtocolP", "init"]
+- !private ["7reviews22ReviewsServiceProtocolP", "type"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["8Swinject12ServiceEntryC", "inObjectScope"]
+- !private ["8Swinject20ServiceEntryProtocolP", "inObjectScope"]
+- !private ["s10SetAlgebraP", "mappedIfSafe"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["So11XCTActivityP", "MocDependencyContainer"]
+- !private ["So11XCTActivityP", "MockReviewsService"]
+- !private ["So11XCTActivityP", "ReviewsInteractor"]
+- !private ["So11XCTActivityP", "ReviewsInteractorProtocol"]
+- !private ["So11XCTActivityP", "ReviewsServiceProtocol"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertNil"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "assemble"]
+- !private ["So11XCTActivityP", "container"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "interactor"]
+- !private ["So11XCTActivityP", "mockService"]
+- ["So17XCTWaiterDelegateP", "MocDependencyContainer"]
+- !private ["So17XCTWaiterDelegateP", "MockReviewsService"]
+- !private ["So17XCTWaiterDelegateP", "ReviewsInteractor"]
+- !private ["So17XCTWaiterDelegateP", "ReviewsInteractorProtocol"]
+- !private ["So17XCTWaiterDelegateP", "ReviewsServiceProtocol"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNil"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "assemble"]
+- !private ["So17XCTWaiterDelegateP", "container"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "interactor"]
+- !private ["So17XCTWaiterDelegateP", "mockService"]
+- ["So6XCTestC", "MocDependencyContainer"]
+- !private ["So6XCTestC", "MockReviewsService"]
+- !private ["So6XCTestC", "ReviewsInteractor"]
+- ["So6XCTestC", "ReviewsInteractorProtocol"]
+- ["So6XCTestC", "ReviewsServiceProtocol"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertNil"]
+- ["So6XCTestC", "assemble"]
+- ["So6XCTestC", "container"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- ["So6XCTestC", "interactor"]
+- ["So6XCTestC", "mockService"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "test_ifIndexIsOutOfRange_NoItemFound"]
+- ["So6XCTestC", "test_ifPageIsOutRange_NoMoreItemsAvailable"]
+- ["So10XCTestCaseC", "MocDependencyContainer"]
+- !private ["So10XCTestCaseC", "MockReviewsService"]
+- !private ["So10XCTestCaseC", "ReviewsInteractor"]
+- ["So10XCTestCaseC", "ReviewsInteractorProtocol"]
+- ["So10XCTestCaseC", "ReviewsServiceProtocol"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertNil"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "assemble"]
+- ["So10XCTestCaseC", "container"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "interactor"]
+- ["So10XCTestCaseC", "mockService"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "test_ifIndexIsOutOfRange_NoItemFound"]
+- ["So10XCTestCaseC", "test_ifPageIsOutRange_NoMoreItemsAvailable"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MocDependencyContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockReviewsService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReviewsInteractor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReviewsInteractorProtocol"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReviewsServiceProtocol"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNil"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assemble"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "container"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "fetchReviews"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "item"]
+- !private ["s21_ObjectiveCBridgeableP", "moreItemsAvailable"]
+- !private ["s21_ObjectiveCBridgeableP", "page"]
+- !private ["s21_ObjectiveCBridgeableP", "pageSize"]
+- !private ["s21_ObjectiveCBridgeableP", "reviews"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["8Swinject9_ResolverP", "init"]
+- !private ["8Swinject9_ResolverP", "register"]
+- !private ["8Swinject9_ResolverP", "resolve"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["12reviewsTestsAAC", "MocDependencyContainer"]
+- !private ["12reviewsTestsAAC", "MockReviewsService"]
+- !private ["12reviewsTestsAAC", "ReviewsInteractor"]
+- ["12reviewsTestsAAC", "ReviewsInteractorProtocol"]
+- ["12reviewsTestsAAC", "ReviewsServiceProtocol"]
+- !private ["12reviewsTestsAAC", "XCTAssertFalse"]
+- !private ["12reviewsTestsAAC", "XCTAssertNil"]
+- ["12reviewsTestsAAC", "assemble"]
+- ["12reviewsTestsAAC", "container"]
+- ["12reviewsTestsAAC", "init"]
+- ["12reviewsTestsAAC", "interactor"]
+- ["12reviewsTestsAAC", "mockService"]
+- ["12reviewsTestsAAC", "setUp"]
+- ["12reviewsTestsAAC", "test_ifIndexIsOutOfRange_NoItemFound"]
+- ["12reviewsTestsAAC", "test_ifPageIsOutRange_NoMoreItemsAvailable"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "8Swinject9ContainerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "Se"
+- "7reviews19DependencyContainerC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "8Swinject15InstanceWrapperP"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "12reviewsTests22MocDependencyContainerC"
+- "12reviewsTests18MockReviewsServiceC"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "8Swinject11ObjectScopeC"
+- !private "8Swinject19ObjectScopeProtocolP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20NSDataReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "8Swinject8ResolverP"
+- !private "7reviews11ReviewsInfoV"
+- !private "7reviews17ReviewsInteractorC"
+- !private "7reviews25ReviewsInteractorProtocolP"
+- "7reviews22ReviewsServiceProtocolP"
+- !private "ST"
+- !private "8Swinject12ServiceEntryC"
+- !private "8Swinject20ServiceEntryProtocolP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "8Swinject9_ResolverP"
+- !private "s16_SwiftStringViewP"
+- "12reviewsTestsAAC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/kgridina/reviews/Build/Products/Debug-iphonesimulator/reviews.swiftmodule/x86_64.swiftmodule"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Headers/Swinject.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f18f40ba27db034a15980c3df994abab"

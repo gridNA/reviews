@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		5DJXjLgvaToHFUb75pxO5DYB3cQ=
+		GTXBL2womQOwp1JCumyCAy7D43k=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		u6GLDX5ttpUd0QTXciq00m5QXjk=
+		hTLo7PuKakOHaMTpCqgRy6PAeqI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		CHWjCOJmXLKovIqkuZq30yCkmX4=
+		hhP3fw7NLUfwZpWepsYcOt0z06U=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		qXwsORkq1AVD4RV55mBfi4QyatI=
+		T8/E5VkOnOFsvX+qFfB4rHmPwbs=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -51,6 +51,35 @@
 		<key>Frameworks/Swinject.framework/_CodeSignature/CodeResources</key>
 		<data>
 		ya35/OXa3LZIwZw1NtcQZExJhjE=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		HK6asLJ70IK7E4e83e8R1gxACHo=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/8LQToTPOL9FsEsYDaACQ21Day0=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		P6P66kW7+LvLIo4WHjXGltpT8CA=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		xKX69bDGMJa2TcU/BC9ypZ06rsI=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -112,9 +141,93 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCore.dylib</key>
+		<data>
+		2Yts+UWi56dZQV4okf99Hj0F0Bw=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreAudio.dylib</key>
+		<data>
+		HnaJcVPfG7HtJU1PqBi7lhoisV4=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreFoundation.dylib</key>
+		<data>
+		zHZGz5giuyF099W8WegDOFV9X8E=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreGraphics.dylib</key>
+		<data>
+		krOjF8+kmKyIFz5/akLO2MhlZ1w=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreImage.dylib</key>
+		<data>
+		QdTafA6AyUkZoAdHsEpdWR2Rybw=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreMedia.dylib</key>
+		<data>
+		guBMkGdQjZsXUMLZ2RiF5seH+uI=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftDarwin.dylib</key>
+		<data>
+		TyCOreDz4zV4HIq3Dc2MkF/5McY=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftDispatch.dylib</key>
+		<data>
+		mAm9I3Z30JXKNcwH6q0ICNwQNyo=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftFoundation.dylib</key>
+		<data>
+		r1ka07DKEnmApFl4LcmVS39C74g=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftMetal.dylib</key>
+		<data>
+		U27TQPGxNt8aN+0Z3JPTUEuP1dI=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftObjectiveC.dylib</key>
+		<data>
+		LL6meOgzTmE4OVwHHWt9dfpR7Yw=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftQuartzCore.dylib</key>
+		<data>
+		/5UKC4bEt0P3Jv5/nNy6X8Lerek=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<data>
+		8cBimLWS9Sj1vdh/zcJ98lCtP08=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftUIKit.dylib</key>
+		<data>
+		tzIjxFJIAHPpvfCaHag1J1RrPX0=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftXCTest.dylib</key>
+		<data>
+		VVnh5sYV61OnazGGULakbWR7oRg=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftos.dylib</key>
+		<data>
+		mUw78ayF0ZMKxZXLbpo/aVHqQ6A=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/Info.plist</key>
+		<data>
+		7nHUlZT344JdLEWeQnHRBYZFaCk=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/ReviewsMocData.json</key>
+		<data>
+		dKE421PW7TBmHveS8xOYzGwI9Z0=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		S2Vg2NY7uIiDh1yz3PrSAyxSpvE=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/libswiftRemoteMirror.dylib</key>
+		<data>
+		s7ona7AnRrumtUKclaVHhamjsDg=
+		</data>
+		<key>PlugIns/reviewsTests.xctest/reviewsTests</key>
+		<data>
+		qZ0/15y1nUirJfBdJgbD7WzQv7w=
+		</data>
 		<key>ReviewViewCell.nib</key>
 		<data>
-		GLer6iP1J8wjDqY4QJbPOxLEJRM=
+		V2gWdicbiKEpbP/akZv1L1FOYJQ=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -127,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAHeH0KbFo74sxSjwRTdglhjVk//g6hc1WYjwIScB9k=
+			O0RpUn3qnTYUG9FN8L5ISW0tyBRFCq/OKp1C1CDUIhg=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -141,14 +254,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mzVMEco4/QBxLBu5aSOXDqa7pKKAYaqqOznUNDKLEI=
+			wLOrqMa/ZGZu9TVYYWJFQO8VeOT5X1vct3UIA2MNBvc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcrV1FypHJU3pI/0JinpxWlQXwAOgrkm0P+OclGr75U=
+			Mjk4oVUScKs1ldF9O0yXiH19bjxH6qTv5edY6k/Nz8Y=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -162,7 +275,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yvzXHcf/yzvTcCBO/wtilhUuO0LPT1J7j7NzytwMP6Q=
+			2LvqCvV7XdE85fkXvi6b/rrlzCk0cx2gCBG58t90sUo=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
@@ -205,6 +318,50 @@
 			<key>hash2</key>
 			<data>
 			ZwJqags8wUVGQCT0/IQZZTNCGTjjCGERy06Y8xuBJU8=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VfVpYXVjG5OK2j8J39CP2mIMg1P5eFaYkRIJ/Hb2RSQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			olgg9NXiZ2M1ifvjBR8uTJxtXlM5EacLdDrNxfmImoY=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C7sJpbu4qpi8/rH5JYpdQYncotP69JQ9Fiu8jrHXYvU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2BV684CZjHtMZHxSiwC5qc/DGXv9WIOWUc9dEU/Q1pw=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jJ/zKe1SwWk9KkZ4MXV01NPW4QiHpU1aZhpfTDknkp0=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -298,11 +455,158 @@
 			EFpaiyfJXaJ3aaulKQ7mrmPLuqXG8IqYFe0E9uygyzU=
 			</data>
 		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCore.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lWHsR2ruLRXG9TuXyFfyJAi2ue/uLOlf/0IigyttDZk=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreAudio.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6Ox7mygTIp39GezzJ9yUUYTFRIHufceaRs9s2Sd5zM0=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreFoundation.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9en/hhMNx50TbsqayWAZf3VQXUtlePLs7yMZwkwImg4=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreGraphics.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2oIs+T405RWLm0nSA7pDH9KR0kg19lwzP013JFbLdDw=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreImage.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+qF3adIf17jUiv8NYXv5nwykrRBZgmnlBZu7+7FdEVc=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftCoreMedia.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JIXRI2G2CdwPe/qQ6YN2FMGkvaOrTvVkmC4f77dBG9E=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftDarwin.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h3/Yr9atsCgofvb4LDwRVcvy7i9v/gy/jtVFvQOemUY=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftDispatch.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5k60u/Xn8OgQjoEh929ZO8YSaHsNN8zFCh4yFQS/BpI=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftFoundation.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RGAPiXbafG70+oOvI266OlrwzSY6NL7W8lhIWD1cH2A=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftMetal.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+V+xokIRZz0hBE734JVvT0L0mEYc/1DWvYLlJfHJ1nM=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftObjectiveC.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ht8QnTojaqD33OOxIRwc3na5rH34CH7aLMB7k8GXdhY=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nXUFhi7GOMbcCOPX3iqPwFs3a7fOWwPv5NbjPjfItFg=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Cc4TmsfKxUrTIyAsNA7Pv3lal4qr15POwEjXqtW8Ci4=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftUIKit.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8AsSUKrw7qRQQyZc9C9OJczMv+t1KQAErhj5Gp2K1hs=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftXCTest.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6gUmT3CFqXT/fEqOjob+6JHI1AczJjyEK1TppRbLtws=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Frameworks/libswiftos.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EFpaiyfJXaJ3aaulKQ7mrmPLuqXG8IqYFe0E9uygyzU=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bmQ3a8XPzzdqAjd2Mhd1H58CzlsGn4Agq2Q1zwuh0uw=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/ReviewsMocData.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			smBEO9j8Q6BLPbrjez6gfJuYxMrA4PRsfa1wgXSIE84=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V0j/uybovFvAjAQOh/274DMyzVvSDom+CkDjpvZEvJc=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/libswiftRemoteMirror.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4GGtFhjWbkrl7cXmNqDKd0XMq1o5tsG/YtXAPAR8Mrk=
+			</data>
+		</dict>
+		<key>PlugIns/reviewsTests.xctest/reviewsTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lMAgvDq81Kn3htfYGDI2YxoQM19LNUIYBQ6J0fkjLqY=
+			</data>
+		</dict>
 		<key>ReviewViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ppGsOR1gg+tVoOgH7U+4eSXcu2w2RacXbgvnVH+910=
+			akND6zwkDsVEGxDQWPsjEc0smmhPpZbgbrOhcedCduI=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

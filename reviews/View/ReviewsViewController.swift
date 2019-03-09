@@ -105,6 +105,7 @@ extension ReviewsViewController: UITableViewDataSource {
             cell.authorLabel.text = viewModel.author
             cell.shortMesageLabel.text = viewModel.message
             cell.titleLabel.text = viewModel.title
+            cell.ratingLabel.text = presenter.ratingStarsFromRating(rating: viewModel.rating)
         }
         return cell
     }

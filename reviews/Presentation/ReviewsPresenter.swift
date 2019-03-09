@@ -17,6 +17,7 @@ protocol ReviewsPresenterProtocol {
     func setupItemView(at index: Int, setupFunc: ReviewsViewSetupFunc)
     func numberOfItemsString() -> String
     func scrollViewDidScroll(_ scrollView: UIScrollView)
+    func ratingStarsFromRating(rating: String?) -> String
     var numberOfFetchedItems: Int { get }
     func selectItem(at index: Int) 
 
@@ -79,6 +80,22 @@ class ReviewsPresenter: ReviewsPresenterProtocol {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard scrollView.window != nil else { return }
         fetchMoreItemsIfNeeded(scrollView: scrollView)
+    }
+
+    func ratingStarsFromRating(rating: String?) -> String {
+        guard let rating = rating else { return "" }
+        switch rating {
+        case "5.0":
+            return "★★★★★"
+        case "4.0":
+            return "★★★★☆"
+        case "3.0":
+            return "★★★☆☆"
+        case "2.0":
+            return "★★☆☆☆"
+        default:
+            return "★☆☆☆☆"
+        }
     }
 
     private func fetchMoreItemsIfNeeded(scrollView: UIScrollView) {
