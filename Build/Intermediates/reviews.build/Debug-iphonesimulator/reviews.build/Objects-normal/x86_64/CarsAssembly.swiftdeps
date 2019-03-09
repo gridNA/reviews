@@ -1,0 +1,87 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DependencyContainer"
+- "CarsAssembly"
+provides-nominal:
+- "7reviews19DependencyContainerC"
+- "7reviews12CarsAssemblyC"
+provides-member:
+- ["7reviews19DependencyContainerC", ""]
+- ["7reviews12CarsAssemblyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CarTypeInteractorProtocol"
+- !private "CarTypePresenterProtocol"
+- !private "CarTypeViewController"
+- !private "CarTypeViewProtocol"
+- "CarsAssembly"
+- !private "CarsService"
+- !private "CarsServiceProtocol"
+- !private "CarsWireframe"
+- !private "CarsWireframeProtocol"
+- "Container"
+- "DependencyContainer"
+- !private "ManufacturerInfo"
+- !private "ManufacturerInteractorProtocol"
+- !private "ManufacturerPresenterProtocol"
+- !private "ManufacturerViewController"
+- !private "ManufacturerViewProtocol"
+- !private "Resolver"
+depends-member:
+- !private ["7reviews12CarsAssemblyC", "CarTypeInteractorProtocol"]
+- !private ["7reviews12CarsAssemblyC", "CarTypePresenterProtocol"]
+- !private ["7reviews12CarsAssemblyC", "CarTypeViewController"]
+- !private ["7reviews12CarsAssemblyC", "CarTypeViewProtocol"]
+- !private ["7reviews12CarsAssemblyC", "CarsService"]
+- !private ["7reviews12CarsAssemblyC", "CarsServiceProtocol"]
+- !private ["7reviews12CarsAssemblyC", "CarsWireframe"]
+- !private ["7reviews12CarsAssemblyC", "CarsWireframeProtocol"]
+- ["7reviews12CarsAssemblyC", "DependencyContainer"]
+- !private ["7reviews12CarsAssemblyC", "ManufacturerInfo"]
+- !private ["7reviews12CarsAssemblyC", "ManufacturerInteractorProtocol"]
+- !private ["7reviews12CarsAssemblyC", "ManufacturerPresenterProtocol"]
+- !private ["7reviews12CarsAssemblyC", "ManufacturerViewController"]
+- !private ["7reviews12CarsAssemblyC", "ManufacturerViewProtocol"]
+- !private ["7reviews12CarsAssemblyC", "Resolver"]
+- ["7reviews12CarsAssemblyC", "assemble"]
+- !private ["7reviews12CarsAssemblyC", "container"]
+- ["7reviews12CarsAssemblyC", "init"]
+- !private ["7reviews13CarsWireframeC", "init"]
+- !private ["7reviews21CarsWireframeProtocolP", "init"]
+- ["7reviews19DependencyContainerC", "Container"]
+- ["7reviews19DependencyContainerC", "DependencyContainer"]
+- ["7reviews19DependencyContainerC", "container"]
+- ["7reviews19DependencyContainerC", "init"]
+- ["7reviews19DependencyContainerC", "instance"]
+depends-nominal:
+- "7reviews12CarsAssemblyC"
+- !private "7reviews13CarsWireframeC"
+- !private "7reviews21CarsWireframeProtocolP"
+- "7reviews19DependencyContainerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "61c781d4341529e715acf8e7f4a38d4b"

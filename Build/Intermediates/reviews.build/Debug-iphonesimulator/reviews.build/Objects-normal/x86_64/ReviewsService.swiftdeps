@@ -1,0 +1,315 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompletionHandler"
+- "ReviewsError"
+- "ReviewsServiceProtocol"
+- "ReviewsService"
+provides-nominal:
+- "7reviews12ReviewsErrorO"
+- "7reviews22ReviewsServiceProtocolP"
+- "7reviews14ReviewsServiceC"
+provides-member:
+- ["7reviews12ReviewsErrorO", ""]
+- ["7reviews22ReviewsServiceProtocolP", ""]
+- ["7reviews14ReviewsServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "-"
+- !private "<"
+- "=="
+- !private ">"
+- !private "Alamofire"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- "CastingPrecedence"
+- "CompletionHandler"
+- !private "Dictionary"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "NSError"
+- !private "NSURLErrorNotConnectedToInternet"
+- "ReviewsError"
+- "ReviewsInfo"
+- "ReviewsService"
+- "ReviewsServiceProtocol"
+- "String"
+- "StringLiteralType"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "code"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["9Alamofire19DefaultDataResponseV", "data"]
+- !private ["9Alamofire19DefaultDataResponseV", "error"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SQ", "NoInternetConnectionError"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "UnknowError"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "code"]
+- ["SQ", "en"]
+- !private ["SQ", "get"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["s5ErrorP", "code"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["SH", "NoInternetConnectionError"]
+- ["SH", "RawValue"]
+- !private ["SH", "UnknowError"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "code"]
+- ["SH", "en"]
+- !private ["SH", "get"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectP", "code"]
+- !private ["So14NSSecureCodingP", "code"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "en"]
+- !private ["SY", "get"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "error"]
+- ["7reviews12ReviewsErrorO", "NoInternetConnectionError"]
+- ["7reviews12ReviewsErrorO", "UnknowError"]
+- ["7reviews12ReviewsErrorO", "__derived_enum_equals"]
+- ["7reviews12ReviewsErrorO", "deinit"]
+- ["7reviews12ReviewsErrorO", "hash"]
+- ["7reviews12ReviewsErrorO", "hashValue"]
+- !private ["7reviews11ReviewsInfoV", "deinit"]
+- !private ["7reviews14ReviewsServiceC", "Alamofire"]
+- ["7reviews14ReviewsServiceC", "CompletionHandler"]
+- !private ["7reviews14ReviewsServiceC", "Constants"]
+- ["7reviews14ReviewsServiceC", "Error"]
+- ["7reviews14ReviewsServiceC", "Int"]
+- !private ["7reviews14ReviewsServiceC", "JSONDecoder"]
+- ["7reviews14ReviewsServiceC", "LanguageCode"]
+- !private ["7reviews14ReviewsServiceC", "NSError"]
+- !private ["7reviews14ReviewsServiceC", "NSURLErrorNotConnectedToInternet"]
+- ["7reviews14ReviewsServiceC", "ReviewsError"]
+- ["7reviews14ReviewsServiceC", "ReviewsInfo"]
+- ["7reviews14ReviewsServiceC", "String"]
+- !private ["7reviews14ReviewsServiceC", "_findStringSwitchCase"]
+- ["7reviews14ReviewsServiceC", "deinit"]
+- ["7reviews14ReviewsServiceC", "fetchReviews"]
+- ["7reviews14ReviewsServiceC", "init"]
+- !private ["7reviews14ReviewsServiceC", "mainHost"]
+- !private ["7reviews14ReviewsServiceC", "reviewsError"]
+- !private ["7reviews14ReviewsServiceC", "reviewsPath"]
+- !private ["7reviews14ReviewsServiceC", "reviewsURLString"]
+- !private ["7reviews22ReviewsServiceProtocolP", "Alamofire"]
+- ["7reviews22ReviewsServiceProtocolP", "CompletionHandler"]
+- !private ["7reviews22ReviewsServiceProtocolP", "Constants"]
+- ["7reviews22ReviewsServiceProtocolP", "Int"]
+- !private ["7reviews22ReviewsServiceProtocolP", "JSONDecoder"]
+- !private ["7reviews22ReviewsServiceProtocolP", "NSURLErrorNotConnectedToInternet"]
+- ["7reviews22ReviewsServiceProtocolP", "ReviewsError"]
+- ["7reviews22ReviewsServiceProtocolP", "ReviewsInfo"]
+- ["7reviews22ReviewsServiceProtocolP", "String"]
+- ["7reviews22ReviewsServiceProtocolP", ""]
+- !private ["7reviews22ReviewsServiceProtocolP", "_findStringSwitchCase"]
+- ["7reviews22ReviewsServiceProtocolP", "fetchReviews"]
+- !private ["7reviews22ReviewsServiceProtocolP", "mainHost"]
+- !private ["7reviews22ReviewsServiceProtocolP", "reviewsError"]
+- !private ["7reviews22ReviewsServiceProtocolP", "reviewsPath"]
+- !private ["7reviews22ReviewsServiceProtocolP", "reviewsURLString"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- "Se"
+- !private "9Alamofire19DefaultDataResponseV"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9Alamofire10HTTPMethodO"
+- "SH"
+- !private "s6HasherV"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "Sm"
+- "SY"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- "7reviews12ReviewsErrorO"
+- !private "7reviews11ReviewsInfoV"
+- "7reviews14ReviewsServiceC"
+- "7reviews22ReviewsServiceProtocolP"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Headers/Swinject.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kgridina/reviews/Carthage/Build/iOS/Swinject.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cca7542d84b9182a9bdb8af44ca674a2"
